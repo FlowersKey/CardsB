@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Interactivo - Química y Biología</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>🧬 Estudio Interactivo</h1>
+            <p class="subtitle">Química y Biología - 50 Tarjetas de Estudio</p>
+        </header>
+
+        <main class="app-main">
+            <!-- Mode selector -->
+            <div class="mode-selector">
+                <button class="btn btn--primary mode-btn active" id="flashcard-mode" data-mode="flashcard">
+                    📚 Tarjetas
+                </button>
+                <button class="btn btn--outline mode-btn" id="quiz-mode" data-mode="quiz">
+                    🧠 Quiz
+                </button>
+            </div>
+
+            <!-- Category filter -->
+            <div class="filters-section">
+                <div class="filter-group">
+                    <label for="category-filter" class="form-label">Filtrar por categoría:</label>
+                    <select id="category-filter" class="form-control">
+                        <option value="">Todas las categorías</option>
+                        <option value="Estructura Atómica">Estructura Atómica</option>
+                        <option value="Enlaces Químicos">Enlaces Químicos</option>
+                        <option value="Macromoléculas">Macromoléculas</option>
+                        <option value="Proteínas">Proteínas</option>
+                        <option value="Lípidos">Lípidos</option>
+                        <option value="Carbohidratos">Carbohidratos</option>
+                        <option value="Ácidos Nucleicos">Ácidos Nucleicos</option>
+                        <option value="Membranas">Membranas</option>
+                        <option value="Organelas">Organelas</option>
+                        <option value="Dominios de la Vida">Dominios de la Vida</option>
+                    </select>
+                </div>
+                <div class="search-group">
+                    <label for="search-input" class="form-label">Buscar:</label>
+                    <input type="text" id="search-input" class="form-control" placeholder="Buscar en tarjetas...">
+                </div>
+            </div>
+
+            <!-- Progress indicator -->
+            <div class="progress-section">
+                <div class="progress-info">
+                    <span class="card-counter">Tarjeta <span id="current-card">1</span> de <span id="total-cards">50</span></span>
+                    <span class="category-badge" id="category-badge">Estructura Atómica</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+            </div>
+
+            <!-- Flashcard mode -->
+            <div class="flashcard-mode-content" id="flashcard-content">
+                <!-- Flashcard -->
+                <div class="flashcard-container">
+                    <div class="flashcard" id="flashcard">
+                        <div class="card-face card-front" id="card-front">
+                            <div class="card-content">
+                                <p class="card-text" id="front-text">Cargando...</p>
+                                <div class="flip-hint">
+                                    <span>👆 Haz clic para ver la respuesta</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-face card-back" id="card-back">
+                            <div class="card-content">
+                                <div class="card-text" id="back-text">Cargando...</div>
+                                <div class="flip-hint">
+                                    <span>👆 Haz clic para ver la pregunta</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navigation controls -->
+                <div class="controls">
+                    <div class="nav-controls">
+                        <button class="btn btn--secondary" id="prev-btn" disabled>
+                            ← Anterior
+                        </button>
+                        <button class="btn btn--primary" id="flip-btn">
+                            🔄 Voltear
+                        </button>
+                        <button class="btn btn--secondary" id="next-btn">
+                            Siguiente →
+                        </button>
+                    </div>
+                    
+                    <div class="action-controls">
+                        <button class="btn btn--outline" id="favorite-btn">
+                            ⭐ Favorito
+                        </button>
+                        <button class="btn btn--outline" id="shuffle-btn">
+                            🔀 Mezclar
+                        </button>
+                        <button class="btn btn--outline" id="reset-btn">
+                            🔄 Reiniciar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz mode -->
+            <div class="quiz-mode-content hidden" id="quiz-content">
+                <div class="quiz-card">
+                    <div class="quiz-header">
+                        <div class="quiz-timer" id="quiz-timer">⏱️ 00:00</div>
+                        <div class="quiz-score">Puntos: <span id="quiz-score">0</span></div>
+                    </div>
+                    <div class="quiz-question" id="quiz-question">Pregunta del quiz aparecerá aquí</div>
+                    <div class="quiz-options" id="quiz-options">
+                        <!-- Options will be populated by JavaScript -->
+                    </div>
+                    <div class="quiz-controls">
+                        <button class="btn btn--primary" id="submit-answer" disabled>
+                            Enviar Respuesta
+                        </button>
+                        <button class="btn btn--secondary" id="next-quiz" disabled>
+                            Siguiente →
+                        </button>
+                    </div>
+                    <div class="quiz-feedback hidden" id="quiz-feedback"></div>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="stats-section">
+                <h3>📊 Estadísticas</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-studied">0</div>
+                        <div class="stat-label">Estudiadas</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="favorites-count">0</div>
+                        <div class="stat-label">Favoritos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="quiz-accuracy">0%</div>
+                        <div class="stat-label">Precisión</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="study-time">0:00</div>
+                        <div class="stat-label">Tiempo</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instructions -->
+            <div class="instructions">
+                <h3>🎯 Instrucciones:</h3>
+                <ul>
+                    <li><strong>Espacios/Click:</strong> Voltear tarjeta</li>
+                    <li><strong>→/←:</strong> Navegar tarjetas</li>
+                    <li><strong>M:</strong> Mezclar tarjetas</li>
+                    <li><strong>F:</strong> Marcar como favorito</li>
+                    <li><strong>Q:</strong> Cambiar a modo Quiz</li>
+                    <li><strong>R:</strong> Reiniciar</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
