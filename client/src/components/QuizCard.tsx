@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Check, X, ChevronRight } from "lucide-react";
@@ -23,6 +23,11 @@ export default function QuizCard({
 }: QuizCardProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [hasAnswered, setHasAnswered] = useState(false);
+
+  useEffect(() => {
+    setSelectedIndex(null);
+    setHasAnswered(false);
+  }, [question]);
 
   const handleOptionClick = (index: number) => {
     if (hasAnswered) return;
