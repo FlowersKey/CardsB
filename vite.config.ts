@@ -19,6 +19,7 @@ export default defineConfig({
         ]
       : []),
   ],
+  //FlowersKey ignore
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
