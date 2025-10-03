@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Check, X } from "lucide-react";
+import { Check, X, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface QuizCardProps {
@@ -9,6 +9,7 @@ interface QuizCardProps {
   options: string[];
   correctAnswer: number;
   onAnswer?: (isCorrect: boolean, selectedIndex: number) => void;
+  onNext?: () => void;
   className?: string;
 }
 
@@ -17,6 +18,7 @@ export default function QuizCard({
   options, 
   correctAnswer,
   onAnswer,
+  onNext,
   className 
 }: QuizCardProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
@@ -109,26 +111,40 @@ export default function QuizCard({
       )}
 
       {hasAnswered && (
-        <div
-          className={cn(
-            "p-4 rounded-md border-2",
-            selectedIndex === correctAnswer
-              ? "border-success bg-success/10"
-              : "border-destructive bg-destructive/10"
-          )}
-          data-testid="quiz-feedback"
-        >
-          <p className="font-medium">
-            {selectedIndex === correctAnswer
-              ? "¡Correcto! 🎉"
-              : "Incorrecto 😔"}
-          </p>
-          {selectedIndex !== correctAnswer && (
-            <p className="text-sm mt-1 text-muted-foreground">
-              La respuesta correcta es: {options[correctAnswer]}
+        <>
+          <div
+            className={cn(
+              "p-4 rounded-md border-2",
+              selectedIndex === correctAnswer
+                ? "border-success bg-success/10"
+                : "border-destructive bg-destructive/10"
+            )}
+            data-testid="quiz-feedback"
+          >
+            <p className="font-medium">
+              {selectedIndex === correctAnswer
+                ? "¡Correcto! 🎉"
+                : "Incorrecto 😔"}
             </p>
+            {selectedIndex !== correctAnswer && (
+              <p className="text-sm mt-1 text-muted-foreground">
+                La respuesta correcta es: {options[correctAnswer]}
+              </p>
+            )}
+          </div>
+
+          {onNext && (
+            <Button
+              onClick={onNext}
+              className="w-full"
+              size="lg"
+              data-testid="button-next-question"
+            >
+              Siguiente Pregunta
+              <ChevronRight className="h-4 w-4 ml-2" />
+            </Button>
           )}
-        </div>
+        </>
       )}
     </Card>
   );

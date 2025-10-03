@@ -1,0 +1,424 @@
+# PREGUNTAS DE QUIZ BASADAS EN LOS PDFs - FORMATO JSON
+
+```json
+[
+  {
+    "id": 1,
+    "category": "Estructura Atómica",
+    "question": "¿Cuáles son las tres partículas subatómicas fundamentales?",
+    "options": [
+      "Protones, neutrones y electrones",
+      "Protones, neutrones y fotones",
+      "Electrones, neutrones y quarks",
+      "Protones, electrones y bosones"
+    ],
+    "correct": 0,
+    "explanation": "Las tres partículas subatómicas fundamentales son protones (carga +), neutrones (carga neutra) y electrones (carga -)."
+  },
+  {
+    "id": 2,
+    "category": "Estructura Atómica",
+    "question": "Los cuatro elementos más importantes para la vida representan qué porcentaje de la materia viva:",
+    "options": ["85%", "90%", "96%", "100%"],
+    "correct": 2,
+    "explanation": "C, H, O, N representan el 96% de la materia viva según el material."
+  },
+  {
+    "id": 3,
+    "category": "Enlaces Químicos",
+    "question": "Los enlaces covalentes polares se caracterizan por:",
+    "options": [
+      "Distribución simétrica de electrones",
+      "Distribución asimétrica de electrones",
+      "Transferencia completa de electrones",
+      "No compartir electrones"
+    ],
+    "correct": 1,
+    "explanation": "En enlaces covalentes polares, los electrones se comparten asimétricamente entre átomos."
+  },
+  {
+    "id": 4,
+    "category": "Enlaces Químicos",
+    "question": "Una molécula de agua puede formar máximo cuántos puentes de hidrógeno:",
+    "options": ["2", "3", "4", "6"],
+    "correct": 2,
+    "explanation": "Una molécula de agua puede formar hasta 4 puentes de hidrógeno: 2 como donadora y 2 como aceptora."
+  },
+  {
+    "id": 5,
+    "category": "Macromoléculas",
+    "question": "En una reacción de deshidratación:",
+    "options": [
+      "Se consumen moléculas de agua",
+      "Se liberan moléculas de agua",
+      "No interviene el agua",
+      "Se forman iones"
+    ],
+    "correct": 1,
+    "explanation": "En la deshidratación (condensación) se unen monómeros liberando una molécula de agua por cada enlace formado."
+  },
+  {
+    "id": 6,
+    "category": "Macromoléculas",
+    "question": "Para hidrolizar completamente un polímero de 100 monómeros se necesitan:",
+    "options": ["100 moléculas de agua", "99 moléculas de agua", "101 moléculas de agua", "50 moléculas de agua"],
+    "correct": 1,
+    "explanation": "Para romper n-1 enlaces se necesitan n-1 moléculas de agua. 100 monómeros tienen 99 enlaces."
+  },
+  {
+    "id": 7,
+    "category": "Proteínas",
+    "question": "Un enlace peptídico se forma entre:",
+    "options": [
+      "Dos grupos R de aminoácidos",
+      "Grupo amino de uno y grupo carboxilo de otro aminoácido",
+      "Dos grupos fosfato",
+      "Dos azúcares"
+    ],
+    "correct": 1,
+    "explanation": "El enlace peptídico une el grupo carboxilo (-COOH) con el grupo amino (-NH2) mediante deshidratación."
+  },
+  {
+    "id": 8,
+    "category": "Proteínas",
+    "question": "¿Cuántos niveles estructurales tienen las proteínas?",
+    "options": ["2", "3", "4", "5"],
+    "correct": 2,
+    "explanation": "Las proteínas tienen 4 niveles: primaria (secuencia), secundaria (α-hélice, lámina β), terciaria (forma 3D) y cuaternaria (múltiples cadenas)."
+  },
+  {
+    "id": 9,
+    "category": "Proteínas",
+    "question": "El cambio de un solo aminoácido en la hemoglobina causa:",
+    "options": ["Diabetes", "Anemia falciforme", "Cáncer", "Hipertensión"],
+    "correct": 1,
+    "explanation": "El cambio de ácido glutámico por valina en posición 6 de la cadena β causa anemia falciforme."
+  },
+  {
+    "id": 10,
+    "category": "Lípidos",
+    "question": "Los ácidos grasos saturados se caracterizan por:",
+    "options": [
+      "Tener dobles enlaces C=C",
+      "Ser líquidos a temperatura ambiente",
+      "Enlaces simples y cadenas lineales",
+      "Ser muy reactivos"
+    ],
+    "correct": 2,
+    "explanation": "Los saturados tienen todos enlaces simples (C-C), formando cadenas lineales que se empaquetan mejor, siendo sólidos."
+  },
+  {
+    "id": 11,
+    "category": "Lípidos",
+    "question": "¿Por qué los lípidos almacenan más energía que los carbohidratos?",
+    "options": [
+      "Tienen más oxígeno",
+      "Tienen más enlaces C-H no polares",
+      "Son más grandes",
+      "Tienen más agua"
+    ],
+    "correct": 1,
+    "explanation": "Los lípidos tienen más enlaces C-H no polares, liberando ~9 kcal/g vs ~4 kcal/g de carbohidratos."
+  },
+  {
+    "id": 12,
+    "category": "Carbohidratos",
+    "question": "La fórmula general de los carbohidratos es:",
+    "options": ["(CH2O)n", "(CHO)n", "(C2H2O)n", "(CH3O)n"],
+    "correct": 0,
+    "explanation": "La fórmula general es (CH2O)n o CnH2nOn, con relación C:H:O de 1:2:1."
+  },
+  {
+    "id": 13,
+    "category": "Carbohidratos",
+    "question": "¿Qué diferencia hay entre enlaces α y β glucosídicos?",
+    "options": [
+      "α son más fuertes que β",
+      "α son digeribles por humanos, β no",
+      "α son estructurales, β energéticos",
+      "No hay diferencia"
+    ],
+    "correct": 1,
+    "explanation": "Enlaces α (almidón, glucógeno) son digeribles por amilasa humana. Enlaces β (celulosa) requieren celulasa que no tenemos."
+  },
+  {
+    "id": 14,
+    "category": "Carbohidratos",
+    "question": "¿Cuáles son los componentes del almidón?",
+    "options": [
+      "Solo amilosa",
+      "Solo amilopectina",
+      "Amilosa (~25%) y amilopectina (~75%)",
+      "Celulosa y quitina"
+    ],
+    "correct": 2,
+    "explanation": "El almidón está formado por amilosa (~25%, lineal) y amilopectina (~75%, ramificada), ambas con enlaces α."
+  },
+  {
+    "id": 15,
+    "category": "Ácidos Nucleicos",
+    "question": "¿Cuáles son los componentes de un nucleótido?",
+    "options": [
+      "Base + azúcar",
+      "Base + fosfato",
+      "Azúcar + fosfato",
+      "Base nitrogenada + azúcar pentosa + grupo fosfato"
+    ],
+    "correct": 3,
+    "explanation": "Un nucleótido tiene tres componentes: base nitrogenada (A,T,G,C,U), azúcar pentosa (ribosa/desoxirribosa) y grupo fosfato."
+  },
+  {
+    "id": 16,
+    "category": "Ácidos Nucleicos",
+    "question": "¿Cuántos puentes de hidrógeno forman A-T y C-G respectivamente?",
+    "options": ["2 y 2", "2 y 3", "3 y 2", "1 y 2"],
+    "correct": 1,
+    "explanation": "A-T forman 2 puentes de hidrógeno, C-G forman 3 puentes, por eso C-G es más estable."
+  },
+  {
+    "id": 17,
+    "category": "Ácidos Nucleicos",
+    "question": "¿Cuáles son las principales diferencias entre ADN y ARN?",
+    "options": [
+      "Solo el azúcar es diferente",
+      "Solo las bases son diferentes",
+      "Azúcar (desoxirribosa vs ribosa), bases (T vs U) y estructura (doble vs simple)",
+      "No hay diferencias importantes"
+    ],
+    "correct": 2,
+    "explanation": "ADN: desoxirribosa, T, doble cadena. ARN: ribosa, U, simple cadena."
+  },
+  {
+    "id": 18,
+    "category": "Membranas",
+    "question": "¿Qué mantiene unida principalmente la membrana plasmática?",
+    "options": [
+      "Enlaces covalentes",
+      "Interacciones hidrofóbicas",
+      "Puentes de hidrógeno solamente",
+      "Enlaces iónicos"
+    ],
+    "correct": 1,
+    "explanation": "Las interacciones hidrofóbicas entre las colas de los fosfolípidos son la fuerza principal que mantiene unida la membrana."
+  },
+  {
+    "id": 19,
+    "category": "Membranas",
+    "question": "¿Cuáles moléculas pueden difundir fácilmente por la bicapa lipídica?",
+    "options": ["Na+, K+, Cl-", "Glucosa y aminoácidos", "O2 y CO2", "Proteínas"],
+    "correct": 2,
+    "explanation": "Solo moléculas pequeñas y no polares como O2 y CO2 pueden atravesar fácilmente la bicapa lipídica."
+  },
+  {
+    "id": 20,
+    "category": "Membranas",
+    "question": "El transporte activo se caracteriza por:",
+    "options": [
+      "No requerir energía",
+      "Ir a favor del gradiente",
+      "Requerir ATP e ir contra gradiente",
+      "Solo transportar agua"
+    ],
+    "correct": 2,
+    "explanation": "El transporte activo requiere energía (ATP) para mover sustancias contra su gradiente de concentración."
+  },
+  {
+    "id": 21,
+    "category": "Membranas",
+    "question": "¿Qué es la fagocitosis?",
+    "options": [
+      "Incorporación de líquidos",
+      "Incorporación de partículas sólidas mediante invaginación",
+      "Expulsión de sustancias",
+      "Difusión de gases"
+    ],
+    "correct": 1,
+    "explanation": "Fagocitosis es la incorporación de partículas sólidas grandes mediante invaginación de la membrana."
+  },
+  {
+    "id": 22,
+    "category": "Membranas",
+    "question": "La bomba Na+/K+-ATPasa intercambia:",
+    "options": [
+      "2 Na+ por 2 K+",
+      "1 Na+ por 1 K+",
+      "3 Na+ fuera por 2 K+ dentro",
+      "3 K+ fuera por 2 Na+ dentro"
+    ],
+    "correct": 2,
+    "explanation": "La bomba Na+/K+ saca 3 Na+ de la célula e introduce 2 K+ consumiendo 1 ATP."
+  },
+  {
+    "id": 23,
+    "category": "Organelas",
+    "question": "¿Cuál es la función principal del núcleo?",
+    "options": [
+      "Producir energía",
+      "Almacenar ADN y controlar actividades celulares",
+      "Sintetizar lípidos",
+      "Digerir sustancias"
+    ],
+    "correct": 1,
+    "explanation": "El núcleo almacena el ADN y controla las actividades celulares, siendo el centro de control."
+  },
+  {
+    "id": 24,
+    "category": "Organelas",
+    "question": "Las mitocondrias se caracterizan por:",
+    "options": [
+      "Tener membrana simple",
+      "Producir glucosa",
+      "Tener doble membrana y ADN propio",
+      "Solo existir en plantas"
+    ],
+    "correct": 2,
+    "explanation": "Las mitocondrias tienen doble membrana, crestas internas, ADN propio circular y producen ATP."
+  },
+  {
+    "id": 25,
+    "category": "Organelas",
+    "question": "¿Qué diferencia hay entre RE rugoso y RE liso?",
+    "options": [
+      "No hay diferencia",
+      "RE rugoso tiene ribosomas, RE liso no",
+      "RE liso es más grande",
+      "RE rugoso está en plantas solamente"
+    ],
+    "correct": 1,
+    "explanation": "RE rugoso tiene ribosomas (síntesis proteínas), RE liso no tiene ribosomas (síntesis lípidos, detoxificación)."
+  },
+  {
+    "id": 26,
+    "category": "Organelas",
+    "question": "Los cloroplastos están presentes en:",
+    "options": [
+      "Todas las células",
+      "Solo células animales",
+      "Solo células vegetales y algunas algas",
+      "Solo bacterias"
+    ],
+    "correct": 2,
+    "explanation": "Los cloroplastos solo están en células vegetales y algunas algas para realizar fotosíntesis."
+  },
+  {
+    "id": 27,
+    "category": "Organelas",
+    "question": "¿Cuál es la función principal de los lisosomas?",
+    "options": [
+      "Fotosíntesis",
+      "Síntesis de proteínas",
+      "Digestión intracelular",
+      "Almacenamiento de agua"
+    ],
+    "correct": 2,
+    "explanation": "Los lisosomas realizan digestión intracelular, degradan macromoléculas y reciclan organelas."
+  },
+  {
+    "id": 28,
+    "category": "Dominios de la Vida",
+    "question": "¿Qué dominio tiene peptidoglucano en la pared celular?",
+    "options": ["Bacteria", "Archaea", "Eukarya", "Todos"],
+    "correct": 0,
+    "explanation": "Solo las Bacterias tienen peptidoglucano en su pared celular."
+  },
+  {
+    "id": 29,
+    "category": "Dominios de la Vida",
+    "question": "¿Cuál dominio puede crecer a temperaturas >100°C?",
+    "options": ["Bacteria", "Algunas especies de Archaea", "Eukarya", "Ninguno"],
+    "correct": 1,
+    "explanation": "Algunas especies de Archaea extremófilas pueden vivir a temperaturas superiores a 100°C."
+  },
+  {
+    "id": 30,
+    "category": "Dominios de la Vida",
+    "question": "El aminoácido iniciador en bacterias es:",
+    "options": ["Metionina", "Formilmetionina", "Glicina", "Alanina"],
+    "correct": 1,
+    "explanation": "Las bacterias usan formilmetionina como aminoácido iniciador, mientras Archaea y Eukarya usan metionina."
+  },
+  {
+    "id": 31,
+    "category": "Niveles de Organización",
+    "question": "¿Cuántos niveles de organización biológica existen según el material?",
+    "options": ["10", "11", "12", "15"],
+    "correct": 2,
+    "explanation": "Según el material hay 12 niveles: átomos, moléculas, organelas, células, tejidos, órganos, sistemas, organismos, poblaciones, comunidades, ecosistemas, biosfera."
+  },
+  {
+    "id": 32,
+    "category": "Niveles de Organización",
+    "question": "Un ecosistema incluye que una comunidad no tiene:",
+    "options": [
+      "Diferentes especies",
+      "Factores abióticos (suelo, agua, clima)",
+      "Poblaciones",
+      "Organismos"
+    ],
+    "correct": 1,
+    "explanation": "El ecosistema incluye la comunidad (factores bióticos) más los factores abióticos (suelo, agua, clima)."
+  },
+  {
+    "id": 33,
+    "category": "Atmósfera Primitiva",
+    "question": "En la atmósfera primitiva (>3800 millones de años), ¿cuál gas era menos abundante?",
+    "options": ["CH4 (metano)", "NH3 (amoníaco)", "H2O (vapor)", "O2 (oxígeno)"],
+    "correct": 3,
+    "explanation": "El oxígeno era el gas menos abundante en la atmósfera primitiva, aumentó posteriormente por fotosíntesis."
+  },
+  {
+    "id": 34,
+    "category": "Atmósfera Primitiva",
+    "question": "Los estromatolitos fósiles son evidencia de:",
+    "options": [
+      "Plantas antiguas",
+      "Comunidades bacterianas antiguas",
+      "Animales marinos",
+      "Meteoritos"
+    ],
+    "correct": 1,
+    "explanation": "Los estromatolitos son estructuras formadas por comunidades bacterianas antiguas (hasta 2700 millones de años)."
+  },
+  {
+    "id": 35,
+    "category": "Propiedades del Agua",
+    "question": "El alto calor específico del agua se debe a:",
+    "options": [
+      "Su peso molecular",
+      "Los puentes de hidrógeno",
+      "Su densidad",
+      "Su transparencia"
+    ],
+    "correct": 1,
+    "explanation": "Los puentes de hidrógeno absorben energía al romperse, dando al agua alto calor específico (1 cal/g·°C)."
+  }
+]
+```
+
+## INSTRUCCIONES PARA REPLIT:
+
+1. **Crea un nuevo archivo llamado `quiz-data.js`**
+
+2. **Pega este contenido:**
+
+```javascript
+// Preguntas de quiz basadas en los PDFs del curso
+const quizQuestions = [
+  // PEGA AQUÍ TODO EL JSON DE ARRIBA (desde el primer { hasta el último }])
+
+// Exportar para usar en la aplicación
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = quizQuestions;
+}
+```
+
+3. **En tu archivo `app.js` existente, reemplaza la variable `quizQuestions` con:**
+
+```javascript
+// Al inicio del archivo app.js, agrega:
+const quizQuestions = [
+  // PEGA AQUÍ TODAS LAS 35 PREGUNTAS DEL JSON
+];
+```
+
+4. **¡Listo! Ya tienes 35 preguntas basadas 100% en tus PDFs**

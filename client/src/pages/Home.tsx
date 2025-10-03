@@ -110,14 +110,14 @@ export default function Home() {
   const handleQuizAnswer = (isCorrect: boolean) => {
     const newAnswers = [...quizAnswers, isCorrect];
     setQuizAnswers(newAnswers);
+  };
 
-    setTimeout(() => {
-      if (currentQuestionIndex < quizQuestions.length - 1) {
-        setCurrentQuestionIndex(currentQuestionIndex + 1);
-      } else {
-        setShowQuizResults(true);
-      }
-    }, 1500);
+  const handleNextQuestion = () => {
+    if (currentQuestionIndex < quizQuestions.length - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+    } else {
+      setShowQuizResults(true);
+    }
   };
 
   const resetQuiz = () => {
@@ -288,6 +288,7 @@ export default function Home() {
                   options={quizQuestions[currentQuestionIndex].options}
                   correctAnswer={quizQuestions[currentQuestionIndex].correctAnswer}
                   onAnswer={handleQuizAnswer}
+                  onNext={handleNextQuestion}
                 />
               </div>
             )}

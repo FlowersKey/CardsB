@@ -1,0 +1,325 @@
+# TARJETAS DE MEMORIA BASADAS 100% EN TUS PDFs - FORMATO JSON
+
+```json
+[
+  {
+    "id": 1,
+    "category": "Estructura Atómica",
+    "front": "¿Cuáles son las tres partículas subatómicas?",
+    "back": "**Neutrones, electrones y protones.**\\n\\nNeutrones: carga neutra\\nElectrones: carga negativa\\nProtones: carga positiva"
+  },
+  {
+    "id": 2,
+    "category": "Estructura Atómica",
+    "front": "¿Qué porcentaje de la materia viva representan C, H, O, N?",
+    "back": "**Representan el 96% de la materia viva.**\\n\\nSon los átomos más importantes para la vida en contexto biológico."
+  },
+  {
+    "id": 3,
+    "category": "Enlaces Químicos",
+    "front": "¿Qué caracteriza a los enlaces covalentes polares?",
+    "back": "**Distribución asimétrica de electrones.**\\n\\nEn enlaces covalentes entre no metales donde hay diferencia de electronegatividad."
+  },
+  {
+    "id": 4,
+    "category": "Enlaces Químicos", 
+    "front": "¿Cuándo se forman los enlaces de hidrógeno?",
+    "back": "**Atracción entre moléculas polares.**\\n\\nEjemplo: moléculas de agua\\nSe forman cuando los electrones no están distribuidos simétricamente."
+  },
+  {
+    "id": 5,
+    "category": "Enlaces Químicos",
+    "front": "¿Qué son las fuerzas de Van der Waals?",
+    "back": "**Enlaces débiles que se forman cuando los electrones no están distribuidos simétricamente.**\\n\\nSon interacciones más débiles que los enlaces de hidrógeno."
+  },
+  {
+    "id": 6,
+    "category": "Niveles de Organización",
+    "front": "¿Cuántos niveles de organización biológica hay?",
+    "back": "**Son 12 niveles.**\\n\\nDesde átomos hasta biosfera, cada nivel aumenta en complejidad y organización."
+  },
+  {
+    "id": 7,
+    "category": "Niveles de Organización",
+    "front": "Definición de átomo en contexto biológico",
+    "back": "**Unidad básica de la materia que conserva las propiedades de un elemento químico.**\\n\\nCompuesto por protones, neutrones y electrones."
+  },
+  {
+    "id": 8,
+    "category": "Niveles de Organización",
+    "front": "¿Qué son las organelas?",
+    "back": "**Estructuras especializadas dentro de las células eucariotas que realizan funciones específicas.**\\n\\nEstán rodeadas por membranas\\nCada una tiene función particular"
+  },
+  {
+    "id": 9,
+    "category": "Niveles de Organización",
+    "front": "Diferencia entre procariotas y eucariotas",
+    "back": "**Procariotas:** Sin núcleo definido (bacterias)\\n**Eucariotas:** Con núcleo y organelas\\n\\nToda la vida está basada en células."
+  },
+  {
+    "id": 10,
+    "category": "Niveles de Organización",
+    "front": "¿Qué incluye la biosfera?",
+    "back": "**Conjunto de todos los ecosistemas de la Tierra.**\\n\\n• Litosfera: Corteza terrestre\\n• Hidrosfera: Toda el agua del planeta\\n• Atmósfera: Gases que rodean la Tierra"
+  },
+  {
+    "id": 11,
+    "category": "Atmósfera Primitiva",
+    "front": "Composición de atmósfera primitiva (>3800 millones años)",
+    "back": "**Gases abundantes:** CH₄ (metano), NH₃ (amoníaco), H₂O (vapor), CO (monóxido)\\n**Gas menos abundante:** O₂ (oxígeno)\\n\\nSin capa de ozono, bombardeo de meteoritos"
+  },
+  {
+    "id": 12,
+    "category": "Atmósfera Primitiva",
+    "front": "¿Qué son los estromatolitos fósiles?",
+    "back": "**Estructuras formadas por comunidades bacterianas antiguas.**\\n\\nHasta 2700 millones de años\\nLos fósiles más antiguos se asemejan a procariotas"
+  },
+  {
+    "id": 13,
+    "category": "Propiedades del Agua",
+    "front": "¿Por qué se forman los puentes de hidrógeno en agua?",
+    "back": "**El hidrógeno (δ+) de una molécula se atrae al oxígeno (δ-) de otra molécula.**\\n\\nDuración muy corta\\nTemperatura dependiente: se debilitan con el calor"
+  },
+  {
+    "id": 14,
+    "category": "Propiedades del Agua",
+    "front": "¿Cuántos puentes de hidrógeno puede formar una molécula de agua?",
+    "back": "**Hasta 4 puentes de hidrógeno:**\\n\\n• 2 como donadora: Los 2 hidrógenos\\n• 2 como aceptora: Los 2 pares de electrones libres del oxígeno"
+  },
+  {
+    "id": 15,
+    "category": "Propiedades del Agua",
+    "front": "¿Qué es la cohesión del agua?",
+    "back": "**Atracción entre moléculas de la misma sustancia (agua-agua).**\\n\\nCausada por puentes de hidrógeno\\nPermite transporte en plantas\\nResponsable de la tensión superficial"
+  },
+  {
+    "id": 16,
+    "category": "Propiedades del Agua",
+    "front": "Características del alto calor específico del agua",
+    "back": "**1 cal/g·°C**\\n\\nSe debe a puentes de hidrógeno (absorben energía al romperse)\\nEstabiliza temperatura corporal y ecosistemas acuáticos"
+  },
+  {
+    "id": 17,
+    "category": "Propiedades del Agua",
+    "front": "Diferencia entre moléculas hidrofílicas e hidrofóbicas",
+    "back": "**Hidrofílicas:** Se disuelven en agua (polares, con carga)\\n**Hidrofóbicas:** No se disuelven en agua (apolares, sin carga)"
+  },
+  {
+    "id": 18,
+    "category": "Macromoléculas",
+    "front": "Definición de monómero según el material",
+    "back": "**Unidad molecular básica y simple que puede unirse a otras moléculas similares para formar estructuras más grandes.**\\n\\nEjemplos: aminoácidos, monosacáridos, nucleótidos"
+  },
+  {
+    "id": 19,
+    "category": "Macromoléculas",
+    "front": "Definición de polímero según el material",
+    "back": "**Macromolécula formada por la unión de muchos monómeros mediante enlaces químicos.**\\n\\nTiene propiedades diferentes a sus monómeros\\nEjemplos: proteínas, polisacáridos, ADN/ARN"
+  },
+  {
+    "id": 20,
+    "category": "Macromoléculas",
+    "front": "¿Qué es la deshidratación (condensación)?",
+    "back": "**Reacción que une monómeros para formar polímeros, liberando una molécula de agua.**\\n\\nProceso: Monómero 1 + Monómero 2 → Dímero + H₂O\\nRequiere energía (endergónica)"
+  },
+  {
+    "id": 21,
+    "category": "Macromoléculas",
+    "front": "¿Qué es la hidrólisis?",
+    "back": "**Reacción que rompe polímeros en monómeros mediante la adición de agua.**\\n\\nProceso: Polímero + H₂O → Monómero 1 + Monómero 2\\nLibera energía (exergónica)"
+  },
+  {
+    "id": 22,
+    "category": "Proteínas",
+    "front": "Componentes de un aminoácido",
+    "back": "**5 componentes:**\\n1. Grupo amino (-NH₂): Básico\\n2. Grupo carboxilo (-COOH): Ácido\\n3. Carbono central (α)\\n4. Grupo R: Variable, determina identidad\\n5. Hidrógeno (-H)"
+  },
+  {
+    "id": 23,
+    "category": "Proteínas",
+    "front": "¿Qué es un enlace peptídico?",
+    "back": "**Enlace covalente que une dos aminoácidos.**\\n\\nFormación: grupo carboxilo + grupo amino\\nSe forma por deshidratación\\nEs rígido y plano"
+  },
+  {
+    "id": 24,
+    "category": "Proteínas",
+    "front": "¿Cuáles son los 4 niveles estructurales de proteínas?",
+    "back": "**1. Primaria:** Secuencia de aminoácidos\\n**2. Secundaria:** α-hélice y lámina β\\n**3. Terciaria:** Forma 3D completa\\n**4. Cuaternaria:** Varias cadenas juntas"
+  },
+  {
+    "id": 25,
+    "category": "Proteínas",
+    "front": "Consecuencias del cambio de un aminoácido",
+    "back": "**Todas son correctas:**\\na) Estructura primaria se modifica\\nb) Estructura terciaria puede modificarse\\nc) Actividad biológica puede alterarse\\n\\nEjemplo: anemia falciforme"
+  },
+  {
+    "id": 26,
+    "category": "Proteínas",
+    "front": "¿Cuáles son las 5 funciones principales de proteínas?",
+    "back": "**1. Enzimática** (catálisis)\\n**2. Estructural** (soporte)\\n**3. Transporte** (hemoglobina)\\n**4. Defensa** (anticuerpos)\\n**5. Regulación** (insulina, hormonas)"
+  },
+  {
+    "id": 27,
+    "category": "Lípidos",
+    "front": "¿Cuáles son las 3 características comunes de lípidos?",
+    "back": "**1. Hidrofóbicos** (o anfipáticos)\\n**2. Principalmente C y H** (alto contenido enlaces C-H)\\n**3. Contienen ácidos grasos** o estructuras relacionadas"
+  },
+  {
+    "id": 28,
+    "category": "Lípidos",
+    "front": "Diferencia entre ácidos grasos saturados e insaturados",
+    "back": "**Saturados:** Enlaces simples C-C, cadena lineal, sólidos\\n**Insaturados:** Dobles enlaces C=C, cadena con pliegues, líquidos (aceites)\\n\\nLos dobles enlaces determinan la fluidez"
+  },
+  {
+    "id": 29,
+    "category": "Lípidos",
+    "front": "¿Por qué lípidos almacenan más energía que carbohidratos?",
+    "back": "**Ventajas:**\\n• Mayor energía: ~9 kcal/g vs ~4 kcal/g\\n• Más compactos: no se hidratan\\n• Menos peso: importante para movilidad\\n• Almacenamiento largo plazo: estables"
+  },
+  {
+    "id": 30,
+    "category": "Carbohidratos",
+    "front": "Fórmula general de carbohidratos",
+    "back": "**(CH₂O)ₙ o CₙH₂ₙOₙ**\\n\\n'Hidrato de carbono' = Carbono + Agua\\nRelación C:H:O es 1:2:1\\nEjemplo: Glucosa C₆H₁₂O₆"
+  },
+  {
+    "id": 31,
+    "category": "Carbohidratos",
+    "front": "Diferencia entre enlaces glucosídicos α y β",
+    "back": "**Enlace α:** -OH abajo, digerible por amilasa, función energética\\n**Enlace β:** -OH arriba, NO digerible, función estructural\\n\\nα: almidón, glucógeno\\nβ: celulosa, quitina"
+  },
+  {
+    "id": 32,
+    "category": "Carbohidratos",
+    "front": "¿Qué polisacáridos puede degradar la amilasa?",
+    "back": "**Puede degradar:** Almidón, glucógeno, amilopectina (enlaces α)\\n**NO puede:** Celulosa, quitina (enlaces β)\\n\\nSolo rompe enlaces α-glucosídicos"
+  },
+  {
+    "id": 33,
+    "category": "Carbohidratos",
+    "front": "Componentes del almidón",
+    "back": "**Amilosa (~25%):** Enlaces α(1→4) solamente, cadena lineal\\n**Amilopectina (~75%):** α(1→4) + ramificaciones α(1→6)\\n\\nAmbas son digeribles por amilasa humana"
+  },
+  {
+    "id": 34,
+    "category": "Ácidos Nucleicos",
+    "front": "¿Cuáles son los 3 componentes de un nucleótido?",
+    "back": "**1. Base nitrogenada** (A,T,G,C,U)\\n• Purinas: A,G (doble anillo)\\n• Pirimidinas: C,T,U (anillo simple)\\n**2. Azúcar pentosa** (ribosa/desoxirribosa)\\n**3. Grupo fosfato**"
+  },
+  {
+    "id": 35,
+    "category": "Ácidos Nucleicos",
+    "front": "Principales diferencias ADN vs ARN",
+    "back": "**ADN:** Desoxirribosa, bases A-T-G-C, doble cadena\\n**ARN:** Ribosa, bases A-U-G-C, simple cadena\\n\\nADN almacena, ARN transmite información"
+  },
+  {
+    "id": 36,
+    "category": "Ácidos Nucleicos",
+    "front": "Reglas de apareamiento de bases",
+    "back": "**A=T:** 2 puentes de hidrógeno\\n**C≡G:** 3 puentes de hidrógeno\\n\\nMás C-G = ADN más estable\\nComplementariedad fundamental para replicación"
+  },
+  {
+    "id": 37,
+    "category": "Membranas",
+    "front": "Composición principal de membrana plasmática",
+    "back": "**1. Lípidos (~75% fosfolípidos)** - estructura anfipática\\n**2. Proteínas** - funcionales (integrales y periféricas)\\n**3. Carbohidratos** - reconocimiento celular\\n**4. Colesterol** - regula fluidez"
+  },
+  {
+    "id": 38,
+    "category": "Membranas",
+    "front": "¿Qué mantiene unida la membrana plasmática?",
+    "back": "**Interacciones hidrofóbicas** (principal fuerza)\\n\\nLas colas hidrofóbicas se repelen del agua\\nTambién: fuerzas de van der Waals y puentes de hidrógeno en superficie"
+  },
+  {
+    "id": 39,
+    "category": "Membranas",
+    "front": "¿Qué moléculas pueden difundir por bicapa lipídica?",
+    "back": "**SÍ difunden:** O₂, CO₂ (pequeñas, no polares), H₂O (muy pequeña)\\n**NO difunden:** Iones Na⁺,K⁺,Cl⁻ (cargados), glucosa (grande y polar)"
+  },
+  {
+    "id": 40,
+    "category": "Membranas",
+    "front": "Diferencia entre transporte activo y pasivo",
+    "back": "**Pasivo:** Sin ATP, a favor del gradiente\\n**Activo:** Requiere ATP, contra gradiente\\n\\nEjemplo activo: bomba Na⁺/K⁺ (3 Na⁺ fuera, 2 K⁺ dentro)"
+  },
+  {
+    "id": 41,
+    "category": "Membranas",
+    "front": "Tipos de transporte pasivo",
+    "back": "**Difusión simple:** Directo por bicapa (O₂,CO₂)\\n**Difusión facilitada:** Con proteínas (glucosa, iones)\\n\\nAmbos a favor del gradiente, sin ATP"
+  },
+  {
+    "id": 42,
+    "category": "Membranas",
+    "front": "Diferencia entre fagocitosis y pinocitosis",
+    "back": "**Fagocitosis:** Incorpora partículas sólidas grandes, forma fagosomas\\n**Pinocitosis:** Incorpora líquido extracelular, forma pinosomas pequeños\\n\\nAmbas son tipos de endocitosis"
+  },
+  {
+    "id": 43,
+    "category": "Organelas",
+    "front": "Funciones del núcleo",
+    "back": "**Centro de control celular:**\\n• Almacena ADN (información genética)\\n• Controla actividades celulares\\n• Replicación del ADN\\n• Transcripción de ARN"
+  },
+  {
+    "id": 44,
+    "category": "Organelas",
+    "front": "Características de las mitocondrias",
+    "back": "**Centrales energéticas:**\\n• Doble membrana con crestas\\n• ADN propio circular\\n• Respiración celular aeróbica\\n• Producen ATP\\n• Origen endosimbiótico"
+  },
+  {
+    "id": 45,
+    "category": "Organelas",
+    "front": "¿Dónde se encuentran los cloroplastos?",
+    "back": "**Solo en células vegetales y algunas algas.**\\n\\nEstructura: doble membrana, tilacoides, granas\\nFunción: fotosíntesis\\nContienen clorofila y ADN propio"
+  },
+  {
+    "id": 46,
+    "category": "Organelas",
+    "front": "Diferencia entre RE rugoso y RE liso",
+    "back": "**RE Rugoso:** Con ribosomas, síntesis de proteínas\\n**RE Liso:** Sin ribosomas, síntesis de lípidos, detoxificación\\n\\nAmbos son red de membranas desde el núcleo"
+  },
+  {
+    "id": 47,
+    "category": "Organelas",
+    "front": "Función del Aparato de Golgi",
+    "back": "**Centro de empaquetamiento y distribución:**\\n• Modifica proteínas del RE\\n• Añade carbohidratos\\n• Empaqueta en vesículas\\n• Forma lisosomas"
+  },
+  {
+    "id": 48,
+    "category": "Organelas",
+    "front": "¿Qué son los lisosomas?",
+    "back": "**Sistema digestivo celular:**\\n• pH ácido (~4.5)\\n• Digestión intracelular\\n• Reciclan organelas viejas\\n• Principalmente en animales"
+  },
+  {
+    "id": 49,
+    "category": "Dominios de la Vida",
+    "front": "¿Qué dominio tiene peptidoglucano?",
+    "back": "**Solo BACTERIA** tiene peptidoglucano en pared celular.\\n\\nArchaea y Eukarya no tienen peptidoglucano"
+  },
+  {
+    "id": 50,
+    "category": "Dominios de la Vida",
+    "front": "Aminoácidos iniciadores por dominio",
+    "back": "**Bacteria:** Formilmetionina\\n**Archaea:** Metionina\\n**Eukarya:** Metionina\\n\\nSolo bacterias usan formilmetionina"
+  }
+]
+```
+
+## INSTRUCCIONES PARA REPLIT:
+
+En tu archivo `app.js`, reemplaza la sección de `flashcardsData` con:
+
+```javascript
+const flashcardsData = [
+  // PEGA AQUÍ TODAS LAS 50 TARJETAS DEL JSON DE ARRIBA
+];
+```
+
+## CARACTERÍSTICAS DE ESTAS TARJETAS:
+
+✅ **50 tarjetas** basadas 100% en tus PDFs  
+✅ **Organizadas por categorías** del material  
+✅ **Texto negro** como solicitaste  
+✅ **Conceptos específicos** de tu curso  
+✅ **Definiciones exactas** de los documentos  
+✅ **Sin información inventada** - todo verificable en PDFs
