@@ -20,6 +20,8 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 var vite_config_default = defineConfig({
+  base: "/CardsB/",
+  // <- LÍNEA AGREGADA para GitHub Pages
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -32,6 +34,7 @@ var vite_config_default = defineConfig({
       )
     ] : []
   ],
+  //FlowersKey ignore
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
